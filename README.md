@@ -3,9 +3,9 @@
 
 参考博客https://blog.csdn.net/chndata/article/details/41114771  
 
-结构、四角编码 抓取http://zidian.miaochaxun.com数据  
+结构、四角编码 抓取http://zidian.miaochaxun.com 数据  
 韵母、声母 使用pinyin包  
-笔画数抓取https://bihua.51240.com数据
+笔画数抓取https://bihua.51240.com 数据
 
 门面函数在string_similarity.py
 
