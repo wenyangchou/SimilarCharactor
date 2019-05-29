@@ -1,4 +1,6 @@
 # SimilarCharactor
+基于音形码，EditDistance的字符串纠正相似度算法
+
 音形码格式：【韵母，声母，结构，四角编码，笔画数】 共8位
 
 参考博客https://blog.csdn.net/chndata/article/details/41114771  
