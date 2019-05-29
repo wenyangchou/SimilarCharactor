@@ -7,6 +7,7 @@ from  write_number_dictionary import write_number_dictionary as wnd
 from character import symbol_lst
 from code_directionary import code_directionary as cd
 from char_number_directionary import char_number_directionary as cnd
+from zhconv import convert
 
 def extract_initial_and_final(pinyin_string):
     if pinyin_string[0:2] not in ['zh','ch','sh']:
@@ -41,5 +42,8 @@ def get_code():
         code_string = icd[initial] + fcd[final] + scd[char] + qcd[char] + wnd[char]
         file.writelines("'"+ char+"':'"+code_string+"',\n")
     file.close()
+
+def traditional2simplified(string):
+    return convert(string, 'zh-cn')
 
 get_code()

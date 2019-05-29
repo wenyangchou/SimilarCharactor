@@ -9,7 +9,7 @@
 
 门面函数在string_similarity.py
 
-TODO 繁简切换  
+繁简切换 Done 
 TODO 相似度分值映射调整  
 TODO 字符串包含关系 相似度算法添加与调整  
 TODO 字符串错位  
