@@ -13,6 +13,7 @@ TODO 字符串错误匹配算法 参考
 入口函数在string_similarity.py
 
 繁简切换 Done 
-TODO 相似度分值映射调整  
-TODO 字符串包含关系 相似度算法添加与调整  
+ongoing 相似度分值映射调整(sigmod函数映射)
+TODO 字符串包含关系 
+ongoing 相似度算法添加与调整(bm25)  
 TODO 字符串错位  
